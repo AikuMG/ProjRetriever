@@ -1,0 +1,35 @@
+<html>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+<style>
+  #popup{
+    display: none;
+    background-color: white;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+  }
+</style>
+<body>
+<br>
+  <button onclick="document.getElementById('popup').style.display='block'">Hey!</button>
+  <div id="popup">
+      Test
+    <button onclick="document.getElementById('popup').style.display='none'" style='color: none;'><i class='fas fa-times' style='color: red;'></i></button>
+  </div>
+  <br>
+  <br>
+  <a class="button" href="#popup1">Click!</a>
+</body>
+</html>
+      
+ 
+
+
+.button {
+  font-size: 14px;
+  padding: 10px;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}

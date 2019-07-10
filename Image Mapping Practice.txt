@@ -1,0 +1,23 @@
+<center><img src="https://www.cornellcollege.edu/residence-life/images/floorplans/sm1.gif" width="500" id="main" usemap=#location>
+<map name="location">
+  <area shape="rect" coords="35,510, 153,618" href="#dorm">
+  <area  shape="rect" coords="189,338, 248,397" href="#bathroom">
+  <area shape="rect" coords="255,465, 315,545" href="#kitchenette">
+<br><br>
+<h2><a name="bathroom">Bathroom B</a></h2>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9g2ssrOXPBFzm80GQOSwSUPZVNijG_8L0SZaZM2BjDr-X1KbWvw" alt="Bathroom B">
+<br><br>
+This is what bathroom B looks like.
+<br>
+<a href="#main">Return to main map</a>
+<br><br><br>
+<h2><a name="kitchenette">Kitchenette</a></h2>
+<img src="https://uwhostel.files.wordpress.com/2016/03/double-dorm-kitchenette.jpg" alt="Kitchenette" width="500"><br>
+This is what the kitchenette looks like.<br>
+<a href="#main">Return to main map.</a>
+<br><br><br>
+<h2><a name="dorm">Dorm 114</a></h2>
+<img src="https://i.pinimg.com/originals/68/48/52/6848521aaa9bc30c0951e782dc6eaf77.jpg" width="500" alt="Dorm 114"><br><br>
+This is what Dorm 114 looks like.<br>
+<a href="#main">Return to main map</a>
+</center>

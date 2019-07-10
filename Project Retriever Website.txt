@@ -1,0 +1,61 @@
+<!-- H1 font -->
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+<!-- Pizza -->
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+<!-- Chicken -->
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+<!-- Bacon -->
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+<!-- Dem alternate colors -->
+<h1>P<span class="white">r</span>o<span class="white">j</span>e<span class="white">c</span>t <span class="white">R</span>e<span class="white">t</span>r<span class="white">i</span>e<span class="white">v</span>e<span class="white">r</span></h1>
+
+<!-- Go dawgs! -->
+<img src="https://creativeservices.umbc.edu/images/portfolio/full/logo-retriever1.jpg" alt="UMBC" class="center">
+
+<div class="introduction">We are a group of UMBC undergraduates (and friends) that have come together to provide an interactive map of UMBC's Fine Arts Building. This project was designed by Angela Saccone who recruited Jennifer Saccone and Kwang Seo Yim for the User Experience element and Robert Schultz and Aiku Greenidge for the Software Development element. This project allows the user (you!) to click through each level of the Fine Arts Building to see a 2-D map and explore the area. As UMBC students, we know how easy it is to get lost in a building on campus, but this map will guide you to the right place.</div>
+
+<br> <br> <br>
+
+<h2>The Fine Arts Building (not really)</h2>
+
+<!--"Fine Arts"-->
+<img src="http://atiinc.com/wp-content/uploads/2017/02/01_UMBC_IH-798x531.jpg" alt="Should be Fine Arts" class="center">
+<br>
+<div class="maptime">
+<button onclick=" window.location.href='https://www.brynmawr.edu/sites/default/files/Radnor_1.jpg'" title="Ground floor";>Ground</button>
+nbsp; nbsp;
+  
+<!--First floor-->
+<button onclick=" window.location.href='https://www.brynmawr.edu/sites/default/files/Radnor_1.jpg'" title="First floor";><i class='fas fa-bacon' style='font-size:48px;color:red'></i></button>
+nbsp; nbsp;
+<button onclick=" window.location.href='https://www.brynmawr.edu/sites/default/files/Radnor_1.jpg'" title="Second floor";>Level 2</button>
+nbsp; nbsp;
+ 
+<!--Third floor-->
+<button onclick=" window.location.href='https://www.brynmawr.edu/sites/default/files/Radnor_1.jpg'" title="Third floor";><i class='fas fa-drumstick-bite' style='font-size: 48px; color: brown'></i></button>
+nbsp; nbsp;
+  
+<button onclick=" window.location.href='https://www.brynmawr.edu/sites/default/files/Radnor_1.jpg'" title="Fourth floor";>Level 4</button>
+nbsp; nbsp;
+
+<!--Fifth floor-->
+<button onclick=" window.location.href='https://www.brynmawr.edu/sites/default/files/Radnor_1.jpg'" title="Fifth floor";><i class='fas fa-pizza-slice' style='color: orange; font-size: 48px'"></i></button>
+</div>
+
+
+
+
+body {background-color: black; }
+h1 {color: #e3b21c; text-align: center; font-family: Lobster; font-size: 60px;}
+
+h2 {color: #e3b21c; text-align: center; font-family: courier; font-size: 30px;}
+.white {color: white;}
+.center {display: block; margin-left: auto; margin-right: auto; width: 45%;}
+
+.introduction {color: white; font-family: courier; font-size: 15px; text-align: center;}
+
+.maptime {font-family: courier; text-align: center;}
